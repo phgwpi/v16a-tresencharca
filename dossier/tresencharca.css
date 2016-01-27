@@ -1,0 +1,98 @@
+																							/*phgwpi APPS*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+	
+	body{ 
+	     background:#acc7dc;
+	     background-image: url(charca.jpg);
+		 background-repeat:repeat-x;		 	  
+		  text-align: center;
+	      font-family: 'idolwildregular';
+		  color:#282921;
+          font-size:1.2em;
+		   border:2px inset #859CAE;
+		   border-right:none;
+		   border-left:none;
+		   margin:20px;
+		   border-radius:15px;}
+		   
+		  
+		   h1{float:right;}
+		   .instructeur{width:400px;}
+		   	   	   		
+	@font-face {
+    font-family: 'idolwildregular';
+    src: url('tipo3/idolwild-webfont.eot');
+    src: url('tipo3/idolwild-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tipo3/idolwild-webfont.woff2') format('woff2'),
+         url('tipo3/idolwild-webfont.woff') format('woff'),
+         url('tipo3/idolwild-webfont.ttf') format('truetype'),
+         url('tipo3/idolwild-webfont.svg#idolwildregular') format('svg');
+    font-weight: normal;
+    font-style: normal; }
+
+    .rangee1,.rangee2,.rangee3{display: block;
+	                            margin-bottom:7px;}
+								
+	.grille{width: 60px; height: 60px;
+     	    border:4px outset #329999; 
+	        display:inline-table;
+			background:#acc7dc;}
+    
+	form{
+	     background:#acc7dc;
+		 border-top:2px solid #24251f; 
+		 border-radius:150px;
+		 margin-bottom:50px;}
+		 
+		 .radi{margin-left:20%;}
+		 
+	textarea{border-radius:10px;
+	           border:0;
+			   background-color:#acc7dc; 			   
+			   font-family: 'idolwildregular';			  
+			   font-size:1.1em;
+			   margin-left:8%;}
+			   
+			   .chungoboss{margin-left:-30%;}
+					  		
+		section{ width:90%; margin: auto;}
+
+	a{text-decoration: none;}	
+	.mezoico{background-color: #6c6054;
+	         color:#fff; 
+			padding:15px; 
+			font-size:1.1em;
+			border-radius:10px;
+			text-decoration: none; 
+            border:1px outset #329999; 
+		    font-family: 'idolwildregular';
+}
+ .mezoico:hover {color:#000;
+                 background:#ffb900;
+				 border-radius:15px;}	
+	
+footer{margin-top:30px;
+       color:#282921; 
+       padding-bottom:30px;}	
+	   
+	   @media only screen and (max-width: 815px) {
+		   .chungoboss{float:right;}
+	   }
+	
+	@media only screen and (max-width: 650px) {
+		.instructeur{width:200px;}	
+        form{border-radius:20px;}		
+	}
+	@media only screen and (max-width: 375px) {
+		form{margin-left:-30px;}
+	}
+	@media only screen and (max-width: 340px) {
+		.instructeur{width:90%;}	
+		form{margin-left:-50px;}
+		
+	}
+	

@@ -1,0 +1,88 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="images/tresencharca.ico" type="image/x-icon">
+	<link rel="stylesheet" href="dossier/tresencharca.css" />
+	<script src="dossier/tresencharca.js"></script>
+	
+	<script src="dossier/jquery.min.js"></script>
+	<script src="dossier/jquery.screwdefaultbuttonsV2.js"></script>
+
+    <script type="text/javascript">
+		$(function(){
+		
+			$('input:radio').screwDefaultButtons({
+				image: 'url("images/radioSmall.jpg")',
+				width: 43,
+				height: 43
+			});
+							
+		});
+	</script>
+	
+	<title>3 en charca</title>
+	</head>
+	<body>
+	
+	<header>
+	<h1>3 en charca</h1>
+		<p class="instructeur">¡Recuerda, ahora eres un sapo verde que habita en Mezoico y lucha por su supervivencia contra Chungoboss!</p>	
+
+	</header>
+	
+	<section>
+	
+
+   <div class="rangee1">   
+	<div class="grille"><a href="javascript:setbutton(11)"><img src="images/nothing.gif" border="0" name="rc11"></a></div>
+	<div class="grille"><a href="javascript:setbutton(12)"><img src="images/nothing.gif" border="0" name="rc12"></a></div>
+	<div class="grille"><a href="javascript:setbutton(13)"><img src="images/nothing.gif" border="0" name="rc13"></a></div>
+	</div>
+	
+	<div class="rangee2">
+	<div class="grille"><a href="javascript:setbutton(21)"><img src="images/nothing.gif" border="0" name="rc21"></a></div>
+	<div class="grille"><a href="javascript:setbutton(22)"><img src="images/nothing.gif" border="0" name="rc22"></a></div>
+	<div class="grille"><a href="javascript:setbutton(23)"><img src="images/nothing.gif" border="0" name="rc23"></a></div>
+	</div>
+	
+	<div class="rangee3">
+	<div class="grille"><a href="javascript:setbutton(31)"><img src="images/nothing.gif" border="0" name="rc31"></a></div>
+	<div class="grille"><a href="javascript:setbutton(32)"><img src="images/nothing.gif" border="0" name="rc32"></a></div>
+	<div class="grille"><a href="javascript:setbutton(33)"><img src="images/nothing.gif" border="0" name="rc33"></a></div>	
+	</div>
+	
+	
+	
+	<form name="scores">
+	
+	<textarea name="scores2" cols="60" rows="6" ></textarea>	
+	<img class="chungoboss" src="images/chungoboss.png" title="¡Si te pone ir de malo desempeña mi role en el juego!">	
+	
+	<div class="radi">
+	<input type="radio" name="level" id="level" onclick="setlevel(0)">Ganarás: Chungoboss es un poco lerdo.
+	<input type="radio" name="level" id="level" onclick="setlevel(1)" checked>30% posibilidades de ganar, Chungoboss es algo m&aacute;s inteligente. 
+	<input type="radio" name="level" id="level" onclick="setlevel(2)">5% posibilidades de que ganes.
+	<input type="radio" name="level" id="level" onclick="setlevel(3)">Chungoboss nunca pierde. 
+    </div>	
+   		
+	</form>
+	
+	
+	
+	<div>
+	<a href="http://mezoico.blogspot.com/"><input class="mezoico" type="submit" title="Mezoico" value="Mezoico"></a>   
+  <a href="javascript:history.back(1)"><input class="mezoico" type="submit"  value="<<"></a>	</div>
+  
+	</section>
+		
+	
+	<footer>
+    
+    <p>phgwpi APPS</p>
+
+	</footer>
+			
+	</body>
+	</html>
